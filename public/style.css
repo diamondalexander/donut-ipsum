@@ -1,0 +1,49 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Shrikhand');
+
+body {
+  margin: 0px!important;
+  padding: 0px!important;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.ipsum-info {
+  width: 50%;
+  float: left;
+  background-image:url('donuts.jpg');
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  height: 650px;
+}
+
+
+/* .banner-area {
+  background-image:url('donuts.jpg');
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+} */
+
+/* .title-text {
+  font-family: 'Shrikhand', 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  color: #E47EBD;
+  letter-spacing: 1px;
+  margin-top: 0px!important;
+
+}
+
+.tagline {
+  font-family: 'Roboto Condensed', sans-serif!important;
+  color: #ffffff;
+}
+
+.ipsum-generator p {
+  width: 50%;
+  float: left;
+  margin-top: 0px!important;
+  padding-top: 0px;
+} */ 

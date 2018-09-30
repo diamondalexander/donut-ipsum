@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title>Donut Ipsum</title>
+  <link href="style.css" rel="stylesheet" text="text/css" />
+</head>
+<body>
+  <div class="ipsum-info">
+      <div class="title">
+        <h1 class="title-text">Donut Ipsum</h1>
+        <h3 class="tagline">Lorem Ipsum generator dedicated to one of my favorite food groups.</h3>
+      </div>
+  <p class="description">
+    Sweetly sprinkle your next project with the most delicious filler text in the world. Donuts are the perfect food and make almost everyone anywhere happier because they exist. I have to settle for subpar gluten-free donuts these days so this side project is a tribute to my favorite food. Maple bars, I miss you the most &hearts;
+  </p>
+</div>
+  <div class="ipsum-generator">
+  <form action="/" method="POST">
+     <p>Choose the number of paragraphs: <input type="number" class="paragraph-number" name="numberOfParagraphs"><input type="submit" value="Generate" class="generate-button"></p>
+   </form>
+
+   <div class="generated-text">
+     <div class='placeholder-div'></div>
+     <button onclick="copyToClipboard('.generated-text')" class="clipboard-button">Copy to Clipboard</button>
+   </div>
+</div>
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script>
+   function copyToClipboard(element) {
+     var $temp = $("<input>");
+     $("body").append($temp);
+     $temp.val($(element).text()).select();
+     document.execCommand("copy");
+     $temp.remove();
+   }
+
+   var innerContents = document.getElementsByClassName("generated-text")[0].innerHTML;
+    if (!innerContents.includes("<p>")) {
+      $('.clipboard-button').hide();
+      document.getElementsByClassName("generated-text")[0].style.display = "none";
+    };
+   </script>
+</body>
+</html>
