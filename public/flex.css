@@ -1,0 +1,26 @@
+@media (min-width: 769px){
+
+.ipsum-main {
+  display: flex;
+}
+
+.ipsum-title {
+  flex: .75;
+}
+
+.ipsum-generator {
+  flex: 1;
+}
+
+}
+
+@media (max-width: 768px) {
+
+  .ipsum-title {
+    flex: 1;
+  }
+
+  .ipsum-generator {
+    flex: 1;
+  }
+}

@@ -20,3 +20,6 @@ app.listen(port, () => {
   // Display server location information to the console
   console.log(`Server is listening at http://${hostname}:${port}/`);
 })
+
+var favicon = require('serve-favicon');
+app.use(favicon(__dirname + '/public/favicon.ico'));
