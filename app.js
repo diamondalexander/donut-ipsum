@@ -25,4 +25,4 @@ app.use(routes);
 // })
 
 var favicon = require('serve-favicon');
-app.use(favicon(__dirname + '/public/favicon.ico'));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
