@@ -23,6 +23,7 @@
         <div class='placeholder-div'></div>
         <button onclick="copyToClipboard('.generated-text')" class="clipboard-button">Copy this delicious text</button>
       </div>
+      <p id="copied" class="hidden">Copied!</p>
       </div>
 
       <div>
@@ -40,6 +41,8 @@
      $temp.val($(element).text()).select();
      document.execCommand("copy");
      $temp.remove();
+     var copiedPopup = document.getElementById('copied');
+     copiedPopup.classList.toggle('hidden');
    }
    //Hides copy to clipboard button until text is generated
    var innerContents = document.getElementsByClassName("generated-text")[0].innerHTML;
