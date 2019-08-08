@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Lora');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto');
 
 body {
   margin: 0px!important;
@@ -57,6 +57,7 @@ h3 {
 
 .ipsum-generator {
  overflow: scroll;
+ align-self: center;
 }
 
 .donut-worry {
@@ -68,7 +69,7 @@ h3 {
 }
 
 .description {
-  font-family: 'Lora', serif;
+  font-family: 'Roboto', serif;
   font-size: 18px;
   padding-left: 5%;
   padding-right: 5%;
@@ -76,7 +77,7 @@ h3 {
 }
 
 .generated-text {
-  font-family: 'Lora', serif;
+  font-family: 'Roboto', serif;
   font-size: 16px;
   padding-left: 5%;
   padding-right: 5%;
